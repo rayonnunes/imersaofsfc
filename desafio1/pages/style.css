@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./img/lotr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  padding: 2em;
+  background-color: rgba(0,0,0, 0.6);
+  color: #FFCD04;
+  text-align: center;
+  line-height: 3.5em;
+}
+
+.main-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.personal-link {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 16pt;
+}
+
+.personal-link:hover {
+  text-decoration: underline;
+}
